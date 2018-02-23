@@ -20,14 +20,14 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'POSTLOVE_USER_LIKES'	=> 'User likes',
-	'POSTLOVE_USER_LIKED'	=> 'User is liked',
+	'POSTLOVE_USER_LIKES'	=> 'User\'s +1s to others',
+	'POSTLOVE_USER_LIKED'	=> 'User\'s +1s from others',
 
-	'NOTIFICATION_POSTLOVE_ADD'	=> '%s <b>liked</b> your post:',
-	'NOTIFICATION_TYPE_POST_LOVE'	=> 'Liked posts.',
+	'NOTIFICATION_POSTLOVE_ADD'	=> '%s <b>+1\'d</b> your post:',
+	'NOTIFICATION_TYPE_POST_LOVE'	=> '+1\'d posts.',
 
 	// Ver 1.1
-	'LIKE_LINE'	=> '%1$s - %2$s <b>liked</b> %3$s’s post “%4$s” in topic “%5$s”',
-	'POSTLOVE_LIST'	=> 'Likes',
-	'POSTLOVE_LIST_VIEW'	=> 'Show list with all like actions',
+	'LIKE_LINE'	=> '%1$s - %2$s <b>+1\'d</b> %3$s’s post “%4$s” in topic “%5$s”',
+	'POSTLOVE_LIST'	=> '+1s',
+	'POSTLOVE_LIST_VIEW'	=> 'Show list with all +1 actions',
 ));
